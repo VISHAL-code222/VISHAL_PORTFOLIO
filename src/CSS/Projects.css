@@ -1,0 +1,93 @@
+.project-start{
+    width: 100%;
+    height: 1100px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+   background-image: url("https://cdn.pixabay.com/photo/2019/03/27/15/43/space-4085278_640.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background: (to bottom, rgba(19, 11, 11, 0.082), rgba(0, 0, 0, 0.088));
+   margin-top:25px;
+   
+   
+    
+}
+.project-start h1{
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+    color: white;
+    font-size: 35px;
+}
+.project-start .card-total{
+    width: 100%;
+    height: 950px;
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+   
+    
+
+}
+.project-start .card-total .card {
+    width: 33%;
+    height: 441px;
+    border: 4px solid rgba(235, 224, 13, 0.879);
+}
+.project-start .card-total .card .card-body{
+    background-color: rgb(100, 148, 237);
+    width: 100%;
+    height: 174px;
+    position: relative;
+    bottom: 4px;
+    
+   
+   
+}
+
+.project-start .card-total .card img{
+   width: 100%;
+    height: 259px;
+   
+}
+.project-start .card-total .card h5{
+    text-align: center;
+    color: white;
+  
+    
+}
+.project-start .card-total .card p{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    /* border: 3px solid red; */
+    margin-top: 5px;
+    color: white;
+    
+}
+.project-start .card-total .card a{
+    text-decoration: none;
+ 
+ 
+     display: inline-block;
+     text-align: center;
+     width: 80px;
+   border: 1px solid black;
+   background-color: burlywood;
+   border-radius: 2px;
+   position: relative;
+   left: 205px;
+   top:10px;
+   height: 26px;
+   color: white;
+}

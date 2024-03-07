@@ -1,0 +1,25 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  scroll-behavior: smooth;
+}
+
+/* Styles for computers */
+@media only screen and (min-width: 768px) {
+  /* Add your computer-specific styles here */
+  body {
+    font-size: 16px; /* Example: Increase font size for better readability on larger screens */
+  }
+}
+.loading-screen{
+  margin-left: 45%;
+  margin-top: 15%;
+}
+
+

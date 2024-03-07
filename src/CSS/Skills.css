@@ -1,0 +1,49 @@
+/* background-color: #fff;
+border-radius: 11px;
+box-shadow: 0 3px 10px var(--secondary-shadow);
+padding: 20px;
+margin: 10px; */
+
+
+
+h1{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 37px;
+    margin-top: 5px;
+    color: white;
+}
+
+
+.skills-start{
+    width: 100%;
+    height: 750px;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/brick-texture_1122-877.jpg?size=626&ext=jpg&uid=R132945630&ga=GA1.1.1493886879.1707761472&semt=ais");
+    background-repeat: no-repeat;
+    background-position: center;
+       background-size: cover;  
+       background: (to bottom, rgba(19, 11, 11, 0.05), rgba(19, 11, 11, 0.05));
+       margin-top: 10px;
+   
+}
+.skills-start .skills-img{
+   background-color: white;
+   width: 290px;
+   height: 210px;
+   box-shadow: 5px 5px 35px black;
+  
+
+}
+
+.skills-start .skills-img img{
+    width: 290px;
+    height: 210px;
+    /* border: 3px solid black; */
+}

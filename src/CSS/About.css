@@ -1,0 +1,70 @@
+.about-start{
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid red; */
+   background-image: url('https://wepik.com/api/image/ai/9b79a547-6c12-42f9-8d86-27d4fe5d6366?thumb=1');
+ 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 70px;
+   
+   
+
+}
+.about-start img{
+    width: 164px;
+    height: 172px;
+    position: relative;
+  right: 199px;
+   bottom:154px;
+    border-radius: 100%;
+   
+   
+}
+.about-start p{
+    color: rgb(246, 254, 9);
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+    /* border: 2px solid red; */
+    position: relative;
+    font-family: "Anta", sans-serif;
+    font-weight: 550;
+    font-style: italic;
+
+   
+    
+}
+ .about-start .aboutme-section{
+    width: 347px;
+    height: 257px;
+   
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 545px;
+    top:89px;
+    background-color: rgba(0, 255, 255, 0.646);
+  
+
+ }
+ .about-start .aboutme-section .aboutme-section-ul{
+    list-style-type:number;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+ }
+ .about-start .aboutme-section .aboutme-section-ul li{
+    color: rgb(18, 18, 16);
+    font-family: "Anta", sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+ }

@@ -1,0 +1,192 @@
+.contact-body{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    /* background-color: rgba(71, 57, 117, 0.105); */
+    margin-top: 20px;
+}
+.contact-body h5{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+.contact-body .p1{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+.contact-body .contact-inside{
+    width: 50%;
+    height: 88%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(84, 225, 225, 0.922);
+    margin-right: 5px;
+    
+
+}
+.contact-body .contact-inside .contact-inside-first{
+    width: 80%;
+    height: 42%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(106, 53, 115, 0.792);
+   
+}
+.contact-body .contact-inside .contact-inside-first .contact-icons{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin-top: 14px;
+    
+
+}
+.contact-body .contact-inside .contact-inside-first .contact-icons i{
+    font-size: 30px;
+    
+}
+
+.contact-body .contact-inside .contact-inside-first .contact-icons .icons-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    
+}
+.contact-body .contact-inside .contact-inside-first .contact-icons .icons-body .icons-img{
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.contact-body .contact-inside .contact-inside-first .contact-icons .icons-body .icons-img:hover{
+    background-color: rgba(128, 255, 0, 0.533);
+}
+
+.contact-body .contact-inside .contact-inside-first .contact-icons .icons-body .icons-img i{
+    font-size: 27px;
+    position: relative;
+    top:7px;
+    
+}
+
+.contact-body .contact-inside .contact-box{
+    width: 100%;
+    height: 160px;
+    /* border: 2px solid red; */
+    
+  
+    margin-top: 80px;
+}
+.contact-body .contact-inside .contact-box .contact-box-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    background-color: rgba(245, 245, 245, 0.992);
+}
+.contact-body .contact-inside .contact-box .contact-box-first .contact-box-first-icon{
+    width: 46px;
+    height: 40px;
+    background-color: rgba(0, 217, 255, 0.823);
+    border-radius: 100%;
+    text-align: center;
+}
+.contact-body .contact-inside .contact-box .contact-box-first .contact-box-first-icon i{
+    font-size: 28px;
+   
+}
+.contact-body .contact-inside .contact-box .contact-box-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    background-color: rgb(245, 245, 245);
+   
+    position: relative;
+    left: 332px;
+    bottom: 162px;
+}
+.contact-body .contact-inside .contact-box .contact-box-second .contact-box-first-icon{
+    width: 46px;
+    height: 40px;
+    background-color: rgba(0, 179, 255, 0.777);
+    border-radius: 100%;
+    text-align: center;
+}
+.contact-body .contact-inside .contact-box .contact-box-second .contact-box-first-icon i{
+    font-size: 28px;
+   
+}
+
+
+
+
+ .contact-body   .contact-inside-2{
+    width: 50%;
+    height: 88%;
+    /* border: 2px solid rgb(17, 24, 5); */
+    position: relative;
+    left: 50%;
+    bottom: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(214, 215, 216, 0.502);
+    
+    
+ }
+ .contact-body   .contact-inside-2 .name{
+    display: flex;
+    width: 90%;
+    height: 100px;
+    /* border: 1px solid rgb(15, 13, 10); */
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+   margin-top: 8px;
+ }
+ .contact-body   .contact-inside-2 .name .name-first{
+    width: 44%;
+    height: 40%;
+    text-align: center;
+ }
+ .contact-body .contact-inside-2 .subject{
+    margin-bottom: 30px;
+ }
+ .contact-body .contact-inside-2 .subject input[type="text"]{
+    width: 645px;
+    height: 100px;
+    text-align: center;
+    
+ }
+ .contact-body .contact-inside-2 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.277);
+
+ }
+ .contact-body .contact-inside-2 button:hover{
+    background-color: rgba(210, 105, 30, 0.501);
+ }
