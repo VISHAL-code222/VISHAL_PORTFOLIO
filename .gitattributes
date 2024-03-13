@@ -2,3 +2,4 @@
 *myvideo1.mp4 filter=lfs diff=lfs merge=lfs -text
 Images/myvideo1.mp4 filter=lfs diff=lfs merge=lfs -text
 Images/myvideo2.mp4 filter=lfs diff=lfs merge=lfs -text
+src/Images/myvideo2.mp4 filter=lfs diff=lfs merge=lfs -text
